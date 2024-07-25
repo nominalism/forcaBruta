@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include <curl/curl.h>
 
 // Função para validar a conexão
@@ -44,7 +43,7 @@ int main(int argc, char *argv[]) {
         fprintf(stderr, "Uso: %s <target> <port> <username> <password1> <password2> ...\n", argv[0]);
         return 1;
     }
-
+    //teste
     const char *target = argv[1];
     int port = atoi(argv[2]);
     const char *username = argv[3];
